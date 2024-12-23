@@ -1,7 +1,5 @@
 # Gene Finding NHEMMO (Non Homogeneous Empirical Markov Model for Organisms)
 
-### Authors: April Collamore (ahc248), Maya Deen (mad362), Chris Gunning (clg238), Natalie Suggs (nrs86)
-
 ## ABSTRACT
 Our project is a re-implementation of GlimmerHMM, a gene finding software. It is designed to predict gene enconding regions in genetic data, specifically whether a portion of an organism's genome represents an exon (initial, internal, final, single), intron (phase 0, phase 1, phase 2), or intergenic region.
 
@@ -53,3 +51,5 @@ Our model is trained on genomic data from Clown anemonefish (_Amphiprion ocellar
 9. Run `python region_inference` to infer the gene encoding regions in the organism's genome, using the new model.
 10. Locate results in the `results` directory.
 11. Run `analysis.py` to reproduce bar charts analyzing the accuracy of the infered gene regions.
+
+Authors: Chris Gunning (clg238), April Collamore (ahc248), Maya Deen (mad362), Natalie Suggs (nrs86)
